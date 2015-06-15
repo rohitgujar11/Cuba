@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    android:paddingBottom="10dp"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     >
+
+        <CheckBox
+            android:id="@+id/checkBox_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"
+        
+         android:layout_marginLeft="3dp"
+         
+          />
+
+        <TextView
+            android:id="@+id/textView_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/checkBox_delete"
+             android:layout_alignParentTop="true"
+          android:textSize="22sp"
+          android:layout_marginLeft="10dp"
+            android:maxLines="1"
+            android:text="aaa"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#323232" />
+
+        <TextView
+            android:id="@+id/textView_title"
+           android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/checkBox_delete"
+          android:layout_below="@+id/textView_Name"
+          android:layout_marginTop="5dp"
+          android:textSize="17sp"
+          android:layout_marginLeft="10dp"
+            android:maxLines="1"
+            android:text="dnvalnvladvmnlak"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#323232"/>
+    </RelativeLayout>
+
+</RelativeLayout>
